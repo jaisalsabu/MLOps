@@ -28,7 +28,7 @@ def train():
     # Step 1 :: Prepossess the data
     # Reading the dataset
     print("Reading the Dataset")
-    dataset = pd.read_csv('height_and_weight_data.csv')
+    dataset = pd.read_csv('height_and_weight.csv')
     print("Dataset contains {0} records".format(dataset.count()))
 
     # Extracting height(independent variable) and weight(dependent variable)
